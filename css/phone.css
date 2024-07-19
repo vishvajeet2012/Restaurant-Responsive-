@@ -1,0 +1,77 @@
+/* navigation */
+#nav_bar {
+    flex-direction: column;
+}
+
+#nav_bar ul li a{
+    font-size: 1rem;
+    padding:0px 7px;
+}
+
+
+
+/* home seciton */
+#home{
+    height:431px;
+    padding: 3px 0px;
+    
+}
+#home::before {
+   height: 480px;
+}
+
+#home p{
+    font-size: 13px;
+}
+
+
+
+
+#services {
+   flex-direction: column;
+}
+
+
+
+
+
+
+.button {
+    font-size: 13px;
+    padding:4px;
+}
+
+.primary{
+    color:antiquewhite;
+    font-size: 2.8rem;
+
+
+}
+
+#clients
+{
+     flex-wrap: wrap;
+    
+}
+#clients img
+{
+    width: 66px ;
+    padding:0 56px;
+}
+
+
+#services .box {
+    border:8px solid brown;
+    padding: 23px;
+    margin: 3px 41px;
+    border-radius: 28px;
+    background-color: aliceblue;
+}
+#services .box img{
+    width: 130px;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+
+
+}

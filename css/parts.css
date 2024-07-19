@@ -1,0 +1,264 @@
+/* CSS reset */
+body {
+    background-color:azure;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+/* variables */
+    :root
+    {
+        --navbar-height:59px;
+    }
+
+
+
+/* Navigation Bar */
+#nav_bar{
+    position: sticky;
+    display:flex;
+        align-items: center;  
+  top:0px;
+        
+}
+
+
+
+/* Logo */
+#logo_png{
+    height:45px;
+   margin:1px 10px;
+   
+  
+}
+/* Navigation List Bar  */
+    #nav_bar ul{
+        display: flex;
+
+    }
+    #nav_bar::before {
+      content: "";
+       background-color: black;
+        position: absolute;
+        height:100%;
+        top:0px;
+        left:0px;
+        width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    text-decoration: none;
+       
+
+    }
+   
+
+    #nav_bar li {
+                list-style: none;
+                font-size: 1.3rem;
+    }
+
+            #nav_bar li a{
+                color:white;
+                display: block;
+                padding:12px 12px;
+                border-radius: 20px;
+                text-decoration: none;
+            
+            
+            }
+           
+                
+            
+#nav_bar li a:hover{
+    color: black;
+    background-color:whitesmoke;
+    display: block;
+  
+    border-radius: 100px;
+   font-size: smaller;
+ text-decoration: none;
+
+}
+
+/*Home Section */
+#home{
+
+    display: flex;
+    flex-direction: column;
+   padding: 3px 200px;
+        justify-content: center;
+        align-items: center;
+        height: 641px;
+        
+}
+#home::before{
+    content: "";
+    position: absolute;
+   top: 0px;
+   left:0px;
+    background: url('../background/01.jpg') no-repeat center center/cover;
+    height: 665px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.86;
+    
+    
+
+}
+
+#home h1{
+    color:white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+        #home p {
+            color:white;
+            text-align: center;
+           font-family:'Courier New', Courier, monospace sans-serif;
+        }
+
+/* Services Utility */
+#services{
+    margin:35px;
+    display: flex;
+
+
+}
+#services .box {
+    border:1px solid crimson;
+    padding: 68px;
+    margin: 3px 41px;
+    border-radius: 28px;
+    background-color: aliceblue;
+
+    
+}
+#services .box img {
+  
+        height: 160px;
+        display: block;
+        margin:auto;
+}
+
+
+#services .box p {
+
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+/* Client Side*/
+#client-section
+{
+position: relative;
+}
+    #clients {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #clients img{
+        height: 124px;
+    }
+
+.clients-item {
+    padding: 24px;
+}
+
+
+/* Contact Section*/
+    #contact {
+        position: relative;
+
+    }
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 99%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    border:3px solid wheat;
+
+
+}
+#contact-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 43px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width:100%;
+    padding:0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label {
+    font-size: larger;
+}
+
+/* Footer */
+footer{
+    background-color: rgb(95, 93, 93);
+    color: whitesmoke;
+
+}
+    
+
+
+
+
+
+
+
+
+/* Uitility classes */
+.primary{
+    font-size: 4.8rem;
+    padding: 15px;
+
+
+}
+.button{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color:crimson;
+    color:white;
+    margin:22px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor:pointer;
+    
+}
+.button:hover {
+    background-color: tomato;
+    color:black;
+}
+
+
+
+
+
+.center{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
